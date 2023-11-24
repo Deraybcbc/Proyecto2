@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login</string>
+
+    <string name="inicio">Login</string>
+
+    <!-- PANTALLA LOGIN -->
+    <string name="User">Usuari</string>
+    <string name="Contra">Contrasenya</string>
+    <string name="Entrar">Accedir</string>
+
+    <!-- MENSAJES TOAST -->
+    <string name="LoginExito">Bienvenido</string>
+    <string name="LoginFallo">Fallo al acceder</string>
+
+
+</resources>
