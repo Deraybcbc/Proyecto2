@@ -11,6 +11,7 @@
     <!-- MENSAJES TOAST -->
     <string name="LoginExito">Bienvenido</string>
     <string name="LoginFallo">Fallo al acceder</string>
+    <string name="LoginUser">Usuario no encontrado</string>
 
 
 </resources>

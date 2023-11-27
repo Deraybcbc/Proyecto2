@@ -69,12 +69,12 @@
                         android:textColor="@color/black"
                         android:textColorHighlight="@color/cardview_dark_background"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/verContra"
+                        app:layout_constraintEnd_toStartOf="@+id/seepassword"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <Button
-                        android:id="@+id/verContra"
+                        android:id="@+id/seepassword"
                         android:layout_width="43dp"
                         android:layout_height="50dp"
                         android:layout_alignTop="@id/password"
