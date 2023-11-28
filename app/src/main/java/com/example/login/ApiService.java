@@ -5,7 +5,7 @@ import retrofit2.http.POST;
 
 public interface ApiService {
 
-    @POST("Hello")
+    @POST("authorizationLogin")
     Call<Answer> ResquestLogin (String user, String contra);
 
 }

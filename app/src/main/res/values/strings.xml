@@ -13,5 +13,8 @@
     <string name="LoginFallo">Fallo al acceder</string>
     <string name="LoginUser">Usuario no encontrado</string>
 
+    <!-- MENSAJES LOG -->
+    <string name="CONEXIONEXITO">CONEXION EXITOSA</string>
+    <string name="CONEXIONFALLIDA">CONEXION FALLIDA</string>
 
 </resources>

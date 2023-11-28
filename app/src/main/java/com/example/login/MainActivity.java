@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText username, password;
     private Button loginboton, seepassword;
-    private String URL="";
+    private String URL="http://192.168.205.69:3777/";
     private ApiService apiService;
 
     private boolean visible = false;
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<Answer> call, Response<Answer> response) {
                         if(response.isSuccessful()){
-                            Log.d("CONEXION","CONEXION EXITOSA");
+                            Log.d("CONNECTION", String.valueOf(R.string.CONEXIONEXITO));
 
                             Answer answer = response.body();
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this, R.string.LoginUser, Toast.LENGTH_SHORT).show();
                             }
                         }else{
-                            Log.e("CONEXION", "CONEXION FALLIDA");
+                            Log.e("CONNECTION", String.valueOf(R.string.CONEXIONFALLIDA));
                         }
                     }
 
